@@ -29,4 +29,12 @@ header {padding-bottom: 10px; border-bottom: 1px solid white;}
 .menu .logo a {margin-top: 20px; color: white; font-size: 23px; font-weight: bold;}
 .menu ul li a {color: white; font-size: 17px; font-weight: lighter; margin-left: 60px;}
 .menu ul li:first-child {margin-left: 0;}
+/*==========SECTION CONTEÚDO==========*/
+.conteudo {position: relative; z-index: 2; max-width: 700px; margin: 110px 0; margin-left: 65px;}
+.conteudo h2 {color: white; font-size: 44px; font-weight: lighter;}
+.conteudo h2 span {color: #2692ff;}
+.conteudo p {color: white; margin-top: 18px; font-size: 16px; font-weight: lighter; text-align: justify;}
+.conteudo a {display: block; width: 177px; height: 44px; background: #2692ff; color: white; text-align: center;
+line-height: 44px; margin-top: 38px; border-radius: 20px;}
+
 
