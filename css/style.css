@@ -57,7 +57,26 @@ background-attachment: fixed;}
 .sobre p {text-align: justify; color: white; margin-top: 15px;}
 .overlay-sobre {width: 100%; height: 100%; position: absolute; z-index: 1; background-color: rgba(20, 20, 20, 0.6);}
 .sobre .center {position: relative; z-index: 2; margin: 40px 0; max-width: 960px;}
-
-
-
+/*==========SECTION CONTATO/EQUIPE==========*/
+.contato-equipe {display: flex; flex-wrap: wrap; justify-content: space-between; max-width: 1320px; margin: 0 auto;
+padding: 50px 30px 0; margin-bottom: 100px;}
+.contato {display: flex; flex-direction: column; flex-wrap: wrap; width: 40%;}
+hr {width: 50px; height: 2px; background: #777;}
+.contato h2, .equipe01 h2 {font-weight: lighter; color: #777; font-size: 24px;}
+.contato form {display: flex; flex-direction: column; flex-wrap: wrap;}
+.contato input:not([type="submit"]) {width: 100%; height: 40px; border: 1px solid #ccc; padding-left: 8px; 
+margin-top: 20px;}
+.contato input[type="submit"] {cursor: pointer; background: #2692ff; color: white; border: 0; border-radius: 30px;
+margin-top: 20px; width: 100px; height: 33px;}
+.contato textarea {width: 100%; height: 120px; border: 1px solid #ccc; padding: 8px; margin-top: 20px; resize: vertical;}
+.equipe01 {display: flex; flex-direction: column; flex-wrap: wrap; width: 25%;}
+.equipe01 h2 {margin-bottom: 20px;}
+.equipe02 {display: flex; flex-direction: column; flex-wrap: wrap; width: 25%; margin-top: 56px;}
+.box-avatar {display: inline-block; width: 50px; height: 50px; border-radius: 50%;
+background: #ccc;/*AQUI DEVE SER USADA UMA IMAGEM.*/}
+.border {border: 1px solid #ccc; padding: 20px 30px 50px 15px; box-shadow: 2px 2px rgb(100, 100, 100);}
+.border p {padding-left: 20px; color: #777;}
+.cabeca {display: flex; flex-wrap: wrap; justify-content: space-between;}
+.paragrafos {display: flex; flex-direction: column; flex-wrap: wrap;}
+.paragrafos hr {width: 200px; height: 2px; background: #ccc; margin: 30px 0;}
 
