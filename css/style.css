@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 .center{
-    max-width: 1280px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -36,5 +36,19 @@ header {padding-bottom: 10px; border-bottom: 1px solid white;}
 .conteudo p {color: white; margin-top: 18px; font-size: 16px; font-weight: lighter; text-align: justify;}
 .conteudo a {display: block; width: 177px; height: 44px; background: #2692ff; color: white; text-align: center;
 line-height: 44px; margin-top: 38px; border-radius: 20px;}
+/*==========SECTION PLANOS==========*/
+.chamada-planos {width: 100%; text-align: center; padding: 27px 2%; background: rgb(220, 220, 220);}
+.chamada-planos h2 {display: inline-block; border-top: 2px solid #2692ff; color: #2692ff; font-size: 25px;
+text-transform: uppercase; font-weight: bold;}
+.box-planos {padding: 40px 0;}
+.box-planos-single {display: flex; justify-content: space-around; flex-wrap: wrap;}
+.pontos-plano {display: flex; flex-direction: column; border: 1px solid #ccc; box-shadow: 2px 2px rgb(100, 100, 100);
+width: 250px; height: 385px;}
+.pontos-plano h2 {background: #2692ff; color: white; text-align: center; padding: 13px; font-weight: lighter;
+margin-bottom: 35px;}
+.pontos-plano p {color: #777; font-size: 17px; margin-top: 8px; padding-left: 10px;}
+.pontos-plano hr {width: 140px; height: 3px; background: #ccc; margin-top: 40px; margin-bottom: 10px; align-self: center;}
+.pontos-plano span {font-size: 25px; font-weight: lighter; text-align: center;}
+
 
 
