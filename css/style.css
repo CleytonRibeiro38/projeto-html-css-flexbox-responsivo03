@@ -100,9 +100,12 @@ background: #ccc;/*AQUI DEVE SER USADA UMA IMAGEM.*/}
     .equipe01 > hr {margin-top: 56px;}
     .equipe03 {margin-top: 56px;}
 }
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
     .contato-equipe {display: flex; flex-wrap: wrap; justify-content: center;}
     .contato, .equipe01, .equipe02, .equipe03 {width: 48%; margin-left: 10px;}
     .equipe03 {margin-top: 56px;}    
 }
+/*==========SECTION FOOTER==========*/
+footer {width: 100%; padding: 10px 2%; text-align: center; color: white; background: #444;}
+
 
